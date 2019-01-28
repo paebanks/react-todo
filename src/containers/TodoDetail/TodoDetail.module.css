@@ -1,0 +1,58 @@
+.Card {
+    /* Add shadows to create the "card" effect */
+    margin: auto;
+    width: 275px;
+    padding-top: 5px;
+    height: 350px;
+    /*padding: 15px 20px;*/
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  /*.Card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }*/
+
+  .TodoId{
+    border: 1px solid green;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 5px 5px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .Footer{
+      border-top: 1px solid green;
+      padding: 15px 20px;  
+  }
+
+  .TodoBody{
+      width: 100%;
+      height: 200px;
+      padding: 15px 20px;
+  }
+
+  .TodoBody:hover{
+      cursor: pointer;
+  }
+
+  .TodoBody input:focus{
+      border: 0;
+      outline: none;
+      color: red;
+      
+  }
+
+  .Container{
+      margin-top: 20px;
+  }
+
+  @media (max-width: 400px){
+    .Card{
+        width: 100%;
+    }
+
+}
